@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.informationworks.quizaptandroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="in.informationworks.quizaptandroid.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.Login"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="in.informationworks.quizaptandroid.Splash" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.informationworks.quizaptandroid.MainActivity" />
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.Signup"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.Home"
+            android:label="@string/title_activity_home_screen" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ChooseLoginSignup"
+            android:label="@string/title_activity_choose_login_signup" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.Quizzes"
+            android:label="@string/title_activity_quiz_list" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.QuizDetails"
+            android:label="@string/title_activity_selected_quiz" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.LoadQuestion"
+            android:label="@string/title_activity_load_question" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ReviewAttemptScore"
+            android:label="@string/title_activity_score_board" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.AttemptQuiz"
+            android:label="@string/title_activity_take_quiz" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ReviewAttemptsList"
+            android:label="@string/title_activity_review_attempts_list" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.SelectedQuizReviewAttempts"
+            android:label="@string/title_activity_selected_quiz_review_attempts" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.AttemptsList"
+            android:label="@string/title_activity_attempts_list" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.QuizAttempts"
+            android:label="@string/title_activity_selected_quiz_attempt_list" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.AllAttempts"
+            android:label="@string/title_activity_attempt_list" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.SelectedPreviousAttemptScore"
+            android:label="@string/title_activity_selected_previous_attempt_score" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ReviewAttempt"
+            android:label="@string/title_activity_review_attempt" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ViewSolution"
+            android:label="@string/title_activity_view_solution" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ViewSolutionQuizzes"
+            android:label="@string/title_activity_view_solution_quiz_list" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.SelectedQuizReviewAttempt"
+            android:label="@string/title_activity_selected_quiz_review_attempt" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ViewAttemptedQuiz"
+            android:label="@string/title_activity_view_attempted_quiz" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ScoreBoardPreviousAttempt"
+            android:label="@string/title_activity_score_board_previous_attempt" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ReceiveScore"
+            android:label="@string/title_activity_score_board" >
+        </activity>
+        <activity
+            android:name="in.informationworks.quizaptandroid.ResumeQuiz"
+            android:label="@string/title_activity_resume_quiz" >
+        </activity>
+    </application>
+
+</manifest>
